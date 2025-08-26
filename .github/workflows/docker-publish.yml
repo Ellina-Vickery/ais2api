@@ -31,6 +31,6 @@ jobs:
           file: ./Dockerfile
           push: true
           # 关键！这里填写你的测试仓库地址
-          tags: ellinalopez/cloud-studio:latest
+          tags: ellinalopez/server-cloud:latest
           build-args: |
             CAMOUFOX_URL=${{ env.CAMOUFOX_URL }}
